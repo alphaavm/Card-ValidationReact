@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.credit-card-container {
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+  color: rgb(244, 175, 0);
+  background: linear-gradient(
+    to bottom right,
+    rgba(130, 52, 255, 0.936),
+    rgba(14, 14, 14, 0.923)
+  );
+  width: 370px;
+  height: 220px;
+  border: 1px solid rgba(234, 145, 145, 0.323);
+  border-radius: 8px;
+}
+.card-chip-img {
+  position: relative;
+  top: 10%;
+  left: 5%;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 5px;
+}
+
+.visa-img {
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  width: 4rem;
+  height: 2.5rem;
+}
+
+.card-no {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-weight: bolder;
+}
+.card-name {
+  position: absolute;
+  font-weight: bolder;
+
+  top: 55%;
+  left: 5%;
+}
+.card-date {
+  position: absolute;
+  font-weight: bolder;
+
+  top: 65%;
+  left: 5%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.cardNo-inp {
+  max-width: 5rem;
+}
